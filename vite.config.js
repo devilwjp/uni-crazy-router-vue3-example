@@ -6,7 +6,7 @@ import path from 'path'
 export default defineConfig({
   resolve: {
     alias: {
-      'uni-crazy-router': path.resolve(__dirname, 'src/uni-crazy-router')
+      // 'uni-crazy-router': path.resolve(__dirname, 'src/uni-crazy-router')
     }
   },
   plugins: [

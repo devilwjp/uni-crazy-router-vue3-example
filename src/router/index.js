@@ -1,4 +1,4 @@
-import uniCrazyRouter, {beforeEach, afterEach, onError, afterNotNext} from "../uni-crazy-router";
+import uniCrazyRouter, {beforeEach, afterEach, onError, afterNotNext} from "uni-crazy-router";
 
 import {bindInterceptLogin, destroyInterceptLogin} from './interceptLogin'
 
@@ -32,6 +32,7 @@ export function setupRouter (app) {
         // 逻辑代码
     })
 
+    // 除了在beforeEach钩子里没有使用next导致的无法跳转的情况外，其他情况导致的跳转失败都会触发onError
     onError((to, from)=>{
         uni.showToast({
             title: `${to.url} 不存在1111`,

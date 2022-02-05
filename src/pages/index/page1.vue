@@ -18,7 +18,7 @@ export default {
   },
   onShow() {
     // app下的nvue页面使用 this.$page.$passedParams 和 this.$page.$routeParams
-    this.info = this.$passedParams?.info || this.$page.$passedParams?.info || ''
+    this.info = this.$passedParams?.info || this.$page?.$passedParams?.info || ''
   }
 }
 </script>

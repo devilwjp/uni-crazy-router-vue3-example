@@ -1,4 +1,4 @@
-import {beforeEach, afterNotNext} from "../uni-crazy-router"
+import {beforeEach, afterNotNext} from "uni-crazy-router"
 let intercept
 export function bindInterceptEveryone () {
     destroyInterceptEveryone()
