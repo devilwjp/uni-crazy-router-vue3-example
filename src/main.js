@@ -11,7 +11,7 @@ import { setupRouter } from './router'
  * 必须字面量描述，不能动态描述
  * 以下使用条件编译
  */
-// #ifdef H5 && production
+// #ifdef H5
 const navigateTo = uni.navigateTo
 const redirectTo = uni.redirectTo
 const reLaunch = uni.reLaunch
@@ -22,7 +22,7 @@ uni.redirectTo = redirectTo
 uni.reLaunch = reLaunch
 uni.switchTab = switchTab
 uni.navigateBack = navigateBack
-// #ifndef
+// #endif
 
 export function createApp() {
 	const app = createSSRApp(App);
