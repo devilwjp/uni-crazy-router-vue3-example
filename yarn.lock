@@ -3835,10 +3835,10 @@ uni-crazy-router@^1.0.0:
   resolved "https://registry.yarnpkg.com/uni-crazy-router/-/uni-crazy-router-1.0.0.tgz#5e70656e31cc76e2b918a9fa8120b1c0691017fa"
   integrity sha512-vs6rJJpRahzl0AGZ3YZCaHWAVfw+ufk+SzZDfHx+gUIICY6d9C5tjBbrnY2elVVKFeeepa+eZKx0+y5SUHtD1Q==
 
-uni-vite-h5-prod-effect@^1.0.0:
+uni-vite-plugin-h5-prod-effect@^1.0.0:
   version "1.0.0"
-  resolved "https://registry.yarnpkg.com/uni-vite-h5-prod-effect/-/uni-vite-h5-prod-effect-1.0.0.tgz#cecc26a91dcf3fca525a17a83305112468a44e0f"
-  integrity sha512-8kxj/rulsAaUzei8cezk6xCgL6G+C/g40rfyhVYLYWlhVqItNoprOVN/dLFVsJECDzgWLacrLCSwfvCICpStmg==
+  resolved "https://registry.yarnpkg.com/uni-vite-plugin-h5-prod-effect/-/uni-vite-plugin-h5-prod-effect-1.0.0.tgz#18cd0a491d2fbae2bd8d42b1092d0d1ad0232339"
+  integrity sha512-Ihf7xVuiqWCDulJ7pwovwLCXNKC84j+fvFFAfyQJnipVo7OANhAOTYXWpcVhy61L4/HwrCLdzLa9Auz/TrR4yw==
 
 uni-vite-pulgin-h5-prod-effect@^1.0.1:
   version "1.0.1"

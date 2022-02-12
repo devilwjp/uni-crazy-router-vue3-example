@@ -1,13 +1,13 @@
 import { defineConfig } from 'vite'
 import uni from '@dcloudio/vite-plugin-uni'
 import path from 'path'
-import h5ProdEffectPlugin from 'uni-vite-pulgin-h5-prod-effect'
+import h5ProdEffectPlugin from 'uni-vite-plugin-h5-prod-effect'
 
 // https://vitejs.dev/config/
 export default defineConfig({
   resolve: {
     alias: {
-      'uni-crazy-router': path.resolve(__dirname, 'src/uni-crazy-router')
+      // 'uni-crazy-router': path.resolve(__dirname, 'src/uni-crazy-router')
     }
   },
   plugins: [
