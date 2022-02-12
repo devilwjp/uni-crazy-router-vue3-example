@@ -13,3 +13,4 @@ src/main.js
 src/router/index.js 
 src/pages/index.vue  
 src/pages/page1.vue  
+/vite.config.js

@@ -3835,6 +3835,16 @@ uni-crazy-router@^1.0.0:
   resolved "https://registry.yarnpkg.com/uni-crazy-router/-/uni-crazy-router-1.0.0.tgz#5e70656e31cc76e2b918a9fa8120b1c0691017fa"
   integrity sha512-vs6rJJpRahzl0AGZ3YZCaHWAVfw+ufk+SzZDfHx+gUIICY6d9C5tjBbrnY2elVVKFeeepa+eZKx0+y5SUHtD1Q==
 
+uni-vite-h5-prod-effect@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/uni-vite-h5-prod-effect/-/uni-vite-h5-prod-effect-1.0.0.tgz#cecc26a91dcf3fca525a17a83305112468a44e0f"
+  integrity sha512-8kxj/rulsAaUzei8cezk6xCgL6G+C/g40rfyhVYLYWlhVqItNoprOVN/dLFVsJECDzgWLacrLCSwfvCICpStmg==
+
+uni-vite-pulgin-h5-prod-effect@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/uni-vite-pulgin-h5-prod-effect/-/uni-vite-pulgin-h5-prod-effect-1.0.1.tgz#31f8d00553a0da25174bb891f6b54ff8313e5a8a"
+  integrity sha512-L6GuiPN1es6W6efNrP6HQsccwSI2INAv1+IBwC2E8lapW0UGdWou0SUofxtftNAkVd8zBW2FfiIgI+TNVLB4MQ==
+
 unicode-canonical-property-names-ecmascript@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/unicode-canonical-property-names-ecmascript/-/unicode-canonical-property-names-ecmascript-2.0.0.tgz#301acdc525631670d39f6146e0e77ff6bbdebddc"
