@@ -1,10 +1,10 @@
 <template>
-  <view>tabbar1</view>
+  <view>tabbar2</view>
 </template>
 
 <script>
 export default {
-  name: "tabbar1"
+  name: "tabbar2"
 }
 </script>
 

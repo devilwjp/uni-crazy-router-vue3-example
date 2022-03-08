@@ -4,6 +4,9 @@
 		<view>
 			<text class="title">{{title}}</text>
 		</view>
+    <view class="m-20">
+      <button type="primary" @click="switchTo('/pages/index/tabbar1')">switchTab到tabbar1</button>
+    </view>
 		<view class="m-20">
 			<button type="primary" @click="jumpTo('/pages/index/page1?a=1&b=1')">跳转到page1</button>
 		</view>
@@ -49,6 +52,11 @@
 					url
 				})
 			},
+      switchTo (url) {
+        uni.switchTab({
+          url
+        })
+      },
 			login () {
                 uni.setStorageSync('isLogin', 1);
 			},

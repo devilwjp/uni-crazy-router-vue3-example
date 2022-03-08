@@ -8,6 +8,12 @@
 		},
 		{
 			"path": "pages/index/page1"
+		},
+		{
+			"path": "pages/index/tabbar1"
+		},
+		{
+			"path": "pages/index/tabbar2"
 		}
 	],
 	"globalStyle": {
@@ -15,14 +21,18 @@
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"list": [{
+			"pagePath": "pages/index/tabbar1",
+			"text": "tabbar1",
+			"iconPath": "static/logo.png",
+			"selectedIconPath": "static/logo.png"
+		}, {
+			"pagePath": "pages/index/tabbar2",
+			"text": "tabbar2",
+			"iconPath": "static/logo.png",
+			"selectedIconPath": "static/logo.png"
+		}]
 	}
-//	"tabBar": {
-//		"list": [{
-//			"pagePath": "pages/index/index",
-//			"text": "index"
-//		}, {
-//			"pagePath": "pages/index/page1",
-//			"text": "page1"
-//		}]
-//	}
 }
